@@ -1,2 +1,49 @@
 # ConcurrencyProject
-small concurrency project set by Astha Shaw
+concurrency project set by Astha Shaw
+
+## Results after running program 50 times
+
+### Thread result orders
+Shows which thread was run at what time after starting the program
+Threads run .start() method in numerical order within the program
+
+#### thread1
+#### thread2
+#### thread3
+without implementing mutual exclusion and memory visibility: 15
+using volatile keyword on SharedCounter.counter: 
+
+
+#### thread1
+#### thread3
+#### thread2
+without implementing mutual exclusion and memory visibility: 20
+using volatile keyword on SharedCounter.counter: 22
+
+
+#### thread2
+#### thread1
+#### thread3
+without implementing mutual exclusion and memory visibility: 3
+using volatile keyword on SharedCounter.counter: 17
+
+
+#### thread2
+#### thread3
+#### thread1
+without implementing mutual exclusion and memory visibility: 7
+using volatile keyword on SharedCounter.counter: 7
+
+
+#### thread3
+#### thread1
+#### thread2
+without implementing mutual exclusion and memory visibility: 5
+using volatile keyword on SharedCounter.counter: 4
+
+
+#### thread3
+#### thread2
+#### thread1
+without implementing mutual exclusion and memory visibility: 0
+using volatile keyword on SharedCounter.counter: 0

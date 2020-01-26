@@ -1,5 +1,5 @@
 # ConcurrencyProject
-concurrency project set by Astha Shaw
+> concurrency project set by Astha Shaw, Jan 2020
 
 ## Results after running program 50 times
 

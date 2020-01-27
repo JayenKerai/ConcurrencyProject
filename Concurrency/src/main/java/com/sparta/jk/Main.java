@@ -37,9 +37,6 @@ class SharedCounter implements Runnable {
     }
 
     public void incrementCounter() {
-        for (int i = 0; i < 1000; i++) {
-            System.out.println(counter + " " + Thread.currentThread().getName()); //prints current counter value and its thread
-            ++counter;
-        }
+        ++counter;
     }
 }
